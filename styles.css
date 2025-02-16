@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(14, 14, 14);
+    font-family: system-ui, sans-serif;
+    line-height: 1.2;
 }
 
 .now, 
@@ -22,20 +24,38 @@ body {
     background-image: url('./images/halie-west-25xggax4bSA-unsplash.jpg');
     background-size: cover;
     background-position: center center;
-    width: 125%;
+    width: 94%;
     > div {
         height: 15%;
         background-color: black;
-        opacity: 0.6;
+        opacity: 0.4;
     }
 }
 
 .text-area {
-    padding-left: 2em;
-    background-color: yellow;
+    padding-left: 1.5em;
+    background-color: azure;
+    > p:first-child {
+        margin-top: 6.5em;
+        width: 29em;
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    > p + p {
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
 }
 
 input,
 button {
-    box-sizing: border-box;
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+label {
+    font-size: 0.7rem;
+    font-weight: 500;
 }
