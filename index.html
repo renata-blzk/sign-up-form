@@ -18,31 +18,60 @@
         <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span class="now">now</span> to get started.</p>
         <p>You <span class="know">know</span> you want to.</p>
 
-        <p>Let's do this!</p>
+        <p class="do-this">Let's do this!</p>
 
-        <form>
-            <label for="first_name">FIRST NAME</label>
-            <input type="text" name="first_name" id="first_name">
+        <form class="form" action="" method="post">
+            <div class="grid">
+                <div class="form__group grid__col">
+                    <label for="first_name">FIRST NAME</label>
+                    <div class="form__controls">
+                        <input type="text" name="first_name" id="first_name">
+                    </div>
+                </div>
 
-            <label for="last_name">LAST NAME</label>
-            <input type="text" name="last_name" id="last_name">
+                <div class="form__group grid__col">    
+                    <label for="last_name">LAST NAME</label>
+                    <div class="form__controls">
+                        <input type="text" name="last_name" id="last_name">
+                    </div>
+                </div>
 
-            <label for="email">EMAIL</label>
-            <input type="email" name="email" id="email">
+                <div class="form__group grid__col">
+                    <label for="email">EMAIL</label>
+                    <div class="form__controls">
+                        <input type="email" name="email" id="email">
+                    </div>
+                </div>
 
-            <label for="tel">PHONE NUMBER</label>
-            <input type="tel" name="phone_number" id="tel">
+                <div class="form__group grid__col">
+                    <label for="tel">PHONE NUMBER</label>
+                    <div class="form__controls">
+                        <input type="tel" name="phone_number" id="tel">
+                    </div>
+                </div>
 
-            <label for="psw">PASSWORD</label>
-            <input type="password" name="psw" id="psw">
+                <div class="form__group grid__col">
+                    <label for="psw">PASSWORD</label>
+                    <div class="form__controls">
+                        <input type="password" name="psw" id="psw">
+                    </div>
+                </div>
 
-            <label for="psw2">CONFIRM PASSWORD</label>
-            <input type="password" name="psw2" id="psw2">
+                <div class="form__group grid__col">
+                    <label for="psw2">CONFIRM PASSWORD</label>
+                    <div class="form__controls">
+                        <input type="password" name="psw2" id="psw2">
+                    </div>
+                </div>
 
-            <button type="submit">Create Account</button>
+                <div class="form__group">
+                    <button class="form__submit" type="submit">Create Account</button>
+                </div>
+
         </form>
 
-        <p>Already have an account? Log in.</p>
+        <div class="log-in"><p>Already have an account? Log in.</p></div>
+
     </div>
 
 </div>
