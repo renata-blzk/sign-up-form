@@ -28,7 +28,7 @@ body {
     background-image: url('./images/halie-west-25xggax4bSA-unsplash.jpg');  
     background-size: cover;
     background-position: center center;
-    width: 44em;
+    width: 41em;
     > div {
         height: 15%;
         background-color: black;
@@ -40,6 +40,7 @@ body {
     padding-left: 1.7em;
     background-color: azure;
     > p:first-child {
+        width: 85%;
         margin-top: 6.5em;
         font-size: 1.1rem;
         font-weight: 600;
@@ -51,17 +52,18 @@ body {
 }
 
 .do-this {
-    padding-top: 3em;
+    padding-top: 2em;
 }
 
 label {
+    color: rgb(57, 57, 57);
     font-size: 0.65rem;
     font-weight: 500;
+    display: block;
 }
 
 .form {
-    background-color: rgb(233, 145, 145);
-    padding: 0;
+    background-color: white;
 }
 
 .form__group {
@@ -69,17 +71,20 @@ label {
 }
 
 .form__controls {
-    margin-top: 0.5rem;
-}
-
-.form__input {
-    width: 100%;
+    margin-top: -4px;
+    margin-bottom: 0.5em;
 }
 
 .form__submit {
-    margin-top: 4rem;
-    width: 10em;
-    height: 3rem;
+    margin-top: 3rem;
+    width: 12.5em;
+    height: 2.1rem;
+    background-color: #596D48;
+    color: white;
+    font-size: 0.4;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgb(224, 223, 223);
 }
 
 .grid {
@@ -94,8 +99,15 @@ label {
 
 .log-in {
     width: 100%;
-    background-color: blue;
-    padding-top: 1em;
-    padding-left: 0;
-    margin-left: 0;
+    background-color: beige;
+    margin-top: 1.5em;
+    font-size: 0.65em;
+    font-weight: 500;
+}
+
+input {
+    width: 14em;
+    height: 1.8em;
+    border-radius: 3px;
+    border: solid 1px #E5E7EB;
 }
