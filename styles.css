@@ -29,7 +29,7 @@ body {
     background-image: url('./images/halie-west-25xggax4bSA-unsplash.jpg');  
     background-size: cover;
     background-position: center center;
-    width: 45em;
+    width: 37em;
     > div {
         position: relative;
         top: 22vh;
@@ -44,13 +44,14 @@ body {
     padding-left: 1.7em;
     > p:first-child {
         width: 85%;
-        margin-top: 6.5em;
+        margin-top: 7em;
         font-size: 1.1rem;
         font-weight: 600;
     }
     > p + p {
         font-size: 1.1rem;
         font-weight: 600;
+        padding-bottom: 1.5em;
     }
 }
 
@@ -67,13 +68,13 @@ label {
 
 .form__controls {
     margin-top: -4px;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.7em;
 }
 
 .form__submit {
-    margin-top: 3rem;
-    width: 12.5em;
-    height: 2.1rem;
+    margin-top: 1.4rem;
+    width: 12.6em;
+    height: 2.3rem;
     background-color: #596D48;
     color: white;
     font-size: 0.4;
@@ -82,7 +83,6 @@ label {
     box-shadow: 3px 3px 3px rgb(224, 223, 223);
 }
 
-.grid,
 .white-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -91,6 +91,10 @@ label {
 
 .grid__col {
     flex-basis: 40%;
+
+    input[type="password"] {
+        margin-bottom: 1.3em;
+    }
 }
 
 .log-in {
@@ -106,8 +110,20 @@ input {
     border-radius: 3px;
     border: solid 1px #E5E7EB;
 }
-.do-this {
-    padding-top: 2em;
+
+.white-wrapper {
+    background-color: white;
+    padding-left: 1.7em;
+    box-shadow: 0 0 12px lightgrey;
 }
 
+.do-this {
+    font: 1.05rem sans-serif;
+    padding: 0.8em 0;
+    flex-basis: 80%;
+}
+
+.grid {
+    margin-left: -1.7em;
+}
 
