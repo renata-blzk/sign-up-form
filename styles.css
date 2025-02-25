@@ -83,12 +83,6 @@ label {
     box-shadow: 3px 3px 3px rgb(224, 223, 223);
 }
 
-.white-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
-
 .grid__col {
     flex-basis: 40%;
 
@@ -112,6 +106,9 @@ input {
 }
 
 .white-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     background-color: white;
     padding-left: 1.7em;
     box-shadow: 0 0 12px lightgrey;
@@ -127,3 +124,15 @@ input {
     margin-left: -1.7em;
 }
 
+input[type="password"]:invalid {
+    border-color: lightcoral;
+}
+
+input[type="password"]:valid {
+    border-color: lightgreen;
+}
+
+input:focus {
+    border-color: lightskyblue;
+    box-shadow: 0 0 6px lightgrey;
+}
