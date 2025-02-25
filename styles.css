@@ -124,15 +124,17 @@ input {
     margin-left: -1.7em;
 }
 
-input[type="password"]:invalid {
+input[type="password"]:invalid:required {
     border-color: lightcoral;
+    box-shadow: 0 0 1.5px lightcoral;
 }
 
 input[type="password"]:valid {
     border-color: lightgreen;
+    box-shadow: 0 0 1.5px lightgreen;
 }
 
 input:focus {
-    border-color: lightskyblue;
-    box-shadow: 0 0 6px lightgrey;
+    border: solid 2px lightblue;
+    background-color: lightblue;
 }
