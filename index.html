@@ -35,7 +35,7 @@
                 <div class="form__group grid__col">    
                     <label for="last_name">LAST NAME</label>
                     <div class="form__controls">
-                        <input type="text" name="last_name" id="last_name" placeholder="Enter surname" required>
+                        <input type="text" name="last_name" id="last_name" placeholder="Enter last name" required>
                     </div>
                 </div>
 
@@ -49,21 +49,21 @@
                 <div class="form__group grid__col">
                     <label for="tel">PHONE NUMBER</label>
                     <div class="form__controls">
-                        <input type="tel" name="phone_number" id="tel" placeholder="Enter phone number" required>
+                        <input type="tel" name="phone_number" id="tel" placeholder="Enter phone number" pattern="\d+" required>
                     </div>
                 </div>
 
                 <div class="form__group grid__col">
                     <label for="psw">PASSWORD</label>
                     <div class="form__controls">
-                        <input type="password" name="psw" id="psw" placeholder="Enter password" pattern="((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%?=*&]).{8,20})" required>
+                        <input type="password" name="psw" id="psw" placeholder="8-20 characters (A-Z,a-z,0-9 only)" pattern="((?=.*([a-z]|[A-Z]|\d)).{8,20})" required>
                     </div>
                 </div>
 
                 <div class="form__group grid__col">
                     <label for="psw2">CONFIRM PASSWORD</label>
                     <div class="form__controls">
-                        <input type="password" name="psw2" id="psw2" placeholder="Enter password" pattern="((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%?=*&]).{8,20})" required>
+                        <input type="password" name="psw2" id="psw2" placeholder="8-20 characters (A-Z,a-z,0-9 only)" pattern="((?=.*([a-z]|[A-Z]|\d)).{8,20})" required>
                     </div>
                 </div>
 

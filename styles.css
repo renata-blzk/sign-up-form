@@ -67,7 +67,7 @@ label {
 }
 
 .form__controls {
-    margin-top: -4px;
+    margin-top: -3px;
     margin-bottom: 0.7em;
 }
 
@@ -99,7 +99,7 @@ label {
 }
 
 input {
-    width: 14em;
+    width: 15.5em;
     height: 1.8em;
     border-radius: 3px;
     border: solid 1px #E5E7EB;
@@ -124,17 +124,18 @@ input {
     margin-left: -1.7em;
 }
 
-input[type="password"]:invalid:required {
+input[type="password"]:invalid {
     border-color: lightcoral;
-    box-shadow: 0 0 1.5px lightcoral;
+    /*box-shadow: 0 0 1px lightcoral;*/
 }
 
 input[type="password"]:valid {
     border-color: lightgreen;
-    box-shadow: 0 0 1.5px lightgreen;
+    /*box-shadow: 0 0 1px lightgreen;*/
 }
 
 input:focus {
-    border: solid 2px lightblue;
-    background-color: lightblue;
+    outline: none;
+    border: solid 1px lightskyblue;
+    box-shadow: 0 0 6px lightgrey;
 }
