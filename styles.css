@@ -29,13 +29,21 @@ body {
     background-image: url('./images/halie-west-25xggax4bSA-unsplash.jpg');  
     background-size: cover;
     background-position: center center;
-    width: 37em;
-    > div {
+    width: 40.5em;
+    > div:first-child {
         position: relative;
         top: 22vh;
         height: 15%;
         background-color: black;
         opacity: 0.4;
+    }
+    > div + div {
+        position: relative;
+        top: 82vh;
+        text-align: center;
+        color: antiquewhite;
+        opacity: 0.85;
+        font-size: 0.48em;
     }
 }
 
