@@ -40,22 +40,22 @@ body {
         background-color: rgb(0 0 0 / 50%);
         > div {
             color: white;
-            font-size: 3em;          
+            font-size: 2em; 
+            padding-bottom: 10px;
             > img {
-                width: 1em;
+                width: 1.6em;
                 padding-top: 10px;
             }
-        }        
-    }
-
-    > div + div {
-        position: relative;
-        top: 82vh;
-        text-align: center;
-        color: antiquewhite;
-        opacity: 0.85;
-        font-size: 0.48em;
-    }
+        }         
+        }
+        > div + div {
+            position: relative;
+            top: 82vh;
+            text-align: center;
+            color: antiquewhite;
+            opacity: 0.85;
+            font-size: 0.48em;
+        }
 }
 
 .text-area {
