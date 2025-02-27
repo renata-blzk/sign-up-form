@@ -31,12 +31,23 @@ body {
     background-position: center center;
     width: 40.5em;
     > div:first-child {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: relative;
         top: 22vh;
         height: 15%;
-        background-color: black;
-        opacity: 0.4;
+        background-color: rgb(0 0 0 / 50%);
+        > div {
+            color: white;
+            font-size: 3em;          
+            > img {
+                width: 1em;
+                padding-top: 10px;
+            }
+        }        
     }
+
     > div + div {
         position: relative;
         top: 82vh;
@@ -133,17 +144,15 @@ input {
 }
 
 input[type="password"]:invalid {
-    border-color: lightcoral;
-    /*box-shadow: 0 0 1px lightcoral;*/
+    border: solid 1px red
 }
 
 input[type="password"]:valid {
-    border-color: lightgreen;
-    /*box-shadow: 0 0 1px lightgreen;*/
+    border: solid 1px lightgreen;
 }
 
 input:focus {
     outline: none;
-    border: solid 1px lightskyblue;
-    box-shadow: 0 0 6px lightgrey;
+    border: solid 1px blue;
+    box-shadow: 0 0 6px lightgray;
 }
