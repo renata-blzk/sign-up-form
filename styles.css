@@ -67,6 +67,10 @@ body {
         }
 }
 
+.credit {
+    text-decoration: underline;
+}
+
 .text-area {
     background-color: azure;
     padding-left: 1.7em;
